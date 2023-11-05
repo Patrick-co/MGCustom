@@ -1,0 +1,231 @@
+h1 {
+  padding-bottom: 20px;
+}
+
+.main-container {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  max-width: 1440px;
+  padding: 0 70px;
+}
+
+.navbar-text {
+  padding: 0 70px;
+}
+
+.navbar-brand {
+  padding: 0 70px;
+}
+
+.primary-btn {
+  background-color: #ffffff;
+  border-style: none;
+  padding: 5px 25px;
+  border: 2px solid #ffffff;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border-style: solid;
+  padding: 5px 25px;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+        /* Hero Section */
+
+#A1 {
+  background-image: url(images/cooks.jpg);
+  background-size: cover;
+  background-position: 0 35%;
+  height: 360px;
+}
+
+.head {
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 70px;
+}
+
+        /* Logo Section */
+
+#B1 {
+  background-color: #1E1E1E;
+  color: #ffffff;
+}
+
+.logo-ban {
+  max-width: 1440px;
+  margin:auto;
+  text-align: center;
+  font-size: 32px;
+  padding: 20px 70px;
+}
+
+        /* Top Section */
+
+#C1 {
+  text-align: center;
+  padding: 50px 70px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.main-img {
+  object-fit: cover;
+  width: 420px;
+  height: 275px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 16px;
+}
+
+        /* Benefits Section */
+
+#D1 {
+  background-color: lightgrey;
+  color: #333;
+}
+
+.benefits {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 70px;
+}
+
+        /* Card Section */
+
+#E1 {
+  max-width: 1440px;
+  padding: 50px 70px;
+  margin: auto;
+  text-align: center;
+}
+
+#G1 {
+  background-color: #1E1E1E;
+  color: #ffffff;
+  height: 360px;
+}
+
+.g1 {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.custom {
+  padding: 100px 70px;
+}
+
+
+/*  Code For Products Page */
+
+#Product-A {
+  background-image: url(images/hoodies.jpg);
+  background-size: cover;
+  background-position: 0 35%;
+  height: 360px;
+}
+
+.head {
+  color: #ffffff;
+  text-align: center;
+  padding: 130px 70px;
+}
+
+#Product-B {
+  padding: 50px 70px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+#Product-C {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 70px;
+}
+
+.card-img-1, .card-img-2, .card-img-3, .card-img-4, .card-img-5, .card-img-6, .card-img-7, .card-img-8, .card-img-9, .card-img-10, .card-img-11 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 35%;
+  height: 310px;
+  width: 310px;
+}
+
+.card-img-1 {background-image: url(images/shortsleeve.jpg);}
+.card-img-2 {background-image: url(images/hats.jpg);}
+.card-img-3 {background-image: url(images/hoodie.jpg);}
+.card-img-4 {background-image: url(images/shoe.jpg); background-position: 30% 35%;}
+.card-img-5 {background-image: url(images/activewear.jpg); background-position: 30% 35%;}
+.card-img-6 {background-image: url(images/women.jpg);}
+.card-img-7 {background-image: url(images/mens.jpg);}
+.card-img-8 {background-image: url(images/kids.jpg);}
+.card-img-9 {background-image: url(images/mug.jpg); background-position: 30% 35%;}
+.card-img-10 {background-image: url(images/tote-bag.jpg);}
+.card-img-11 {background-image: url(images/uniform.jpg);}
+
+
+
+.product-title {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+.title {
+  padding-top: 17px;
+}
+
+#Product-D {
+  padding: 50px;
+}
+
+.product-d {
+  background-color: #1E1E1E;
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+  padding: 70px 70px;
+  color: #ffffff;
+}
+
+/* Code For Products Tee Shirt Page */
+
+#details {
+  max-width: 1440px;
+  padding: 100px 70px;
+  margin: auto;
+}
+
+.details-box {
+  padding: 20px 50px;
+}
+
+.tri-button {
+  background-color: #1E1E1E;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.tri-button:hover {
+  background-color: #ffffff;
+  border: 1px solid #1E1E1E;
+  color: #1E1E1E;
+  transition: 0.2s;
+}
