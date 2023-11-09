@@ -1,0 +1,372 @@
+h1 {
+  padding-bottom: 20px;
+}
+
+.main-container {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  max-width: 1440px;
+}
+
+.navbar-text {
+  padding: 0 70px;
+}
+
+.navbar-brand {
+  padding: 0 70px;
+}
+
+.line {
+  background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    #54b3d6 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #1E1E1E;
+  transition: all 0.3s ease-in-out;
+}
+
+.line:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  /* position: flex; */
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+}
+
+.line:hover {
+ background-position: 0;
+}
+
+.line:hover::before {
+  width: 100%;
+}
+
+.primary-btn {
+  background-color: #FFF;
+  padding: 10px 30px;
+  border: none;
+  font-size: 20px;
+}
+
+.primary-btn:hover {
+  background-color: #54b3d6;
+  border: none;
+  color: #FFFFFF;
+  transition: 0.2s;
+}
+.secondary-btn {
+  background-color: transparent;
+  border-style: solid;
+  padding: 5px 25px;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.secondary-btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #1E1E1E;
+  color: #1E1E1E;
+  transition: 0.2s;
+}
+
+        /* Hero Section */
+
+#A1 {
+  background-image: url(images/cooks.jpg);
+  background-size: cover;
+  background-position: 0 35%;
+  height: 360px;
+}
+
+.head {
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 70px;
+}
+
+        /* Logo Section */
+
+#B1 {
+  background-color: #1E1E1E;
+  color: #ffffff;
+}
+
+.logo-ban {
+  max-width: 1440px;
+  margin:auto;
+  text-align: center;
+  font-size: 32px;
+  padding: 20px 70px;
+}
+
+.bb {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  padding:100px;
+}
+        /* Top Section */
+
+#C1 {
+  text-align: center;
+  padding: 50px 70px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.main-img {
+  object-fit: cover;
+  width: 420px;
+  height: 275px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 16px;
+}
+
+        /* Benefits Section */
+
+#D1 {
+  background-color: #FAFAFA;
+  color: #333;
+  margin: 30px 0 5px;
+}
+
+.benefits {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 70px;
+}
+
+        /* Card Section */
+
+#E1 {
+  max-width: 1440px;
+  padding: 50px 70px;
+  margin: auto;
+  text-align: center;
+}
+
+#G1 {
+  background-color: #1E1E1E;
+  color: #ffffff;
+  height: 360px;
+}
+
+.g1 {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.custom {
+  padding: 100px 70px;
+}
+
+
+/*  Code For Products Page */
+
+#Product-A {
+  background-image: url(images/hoodies.jpg);
+  background-size: cover;
+  background-position: 0 35%;
+  height: 360px;
+}
+
+.head {
+  color: #ffffff;
+  text-align: center;
+  padding: 130px 70px;
+}
+
+#Product-B {
+  padding: 50px 70px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+#Product-C {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 70px;
+}
+
+.card-img-1, .card-img-2, .card-img-3, .card-img-4, .card-img-5, .card-img-6, .card-img-7, .card-img-8, .card-img-9, .card-img-10, .card-img-11 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 35%;
+  height: 310px;
+  width: 310px;
+}
+
+.card-img-1 {background-image: url(images/shortsleeve.jpg);}
+.card-img-2 {background-image: url(images/hats.jpg);}
+.card-img-3 {background-image: url(images/hoodie.jpg);}
+.card-img-4 {background-image: url(images/pants1.jpg); background-position: 30% 35%;}
+.card-img-5 {background-image: url(https://i2.pickpik.com/photos/535/376/883/t-shirt-design-book-self-boy-one-man-only-preview.jpg); background-position: 30% 35%;}
+.card-img-6 {background-image: url(https://www.trueclassictees.com/cdn/shop/products/4204_WHITENAVY_2.jpg?v=1660942758&width=480&em-format=avif&em-width=480);}
+.card-img-7 {background-image: url(images/polo.jpg); background-position: 30% 30%;}
+.card-img-8 {background-image: url(images/activewear.jpg); background-position: 30% 35%;}
+.card-img-9 {background-image: url(https://images.unsplash.com/photo-1599699542859-6865fdd2907a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFuayUyMHRvcHxlbnwwfHwwfHx8MA%3D%3D);}
+.card-img-10 {background-image: url(https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9uZyUyMHNsZWV2ZXxlbnwwfHwwfHx8MA%3D%3D);}
+.card-img-11 {background-image: url(images/mug.jpg);}
+
+.product-title {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+.title {
+  padding-top: 17px;
+}
+
+#Product-D {
+  padding: 50px 0 100px;
+}
+
+.product-d {
+  background-color: #1E1E1E;
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+  padding: 70px 70px;
+  color: #ffffff;
+}
+
+/* Code For Products Tee Shirt Page */
+
+
+#details {
+  max-width: 1440px;
+  padding: 100px 70px 50px;
+  margin: auto;
+}
+
+.details-box {
+  padding: 20px 50px;
+}
+
+.tri-button {
+  background-color: #1E1E1E;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.tri-button:hover {
+  background-color: #ffffff;
+  border: 1px solid #1E1E1E;
+  color: #1E1E1E;
+  transition: 0.2s;
+}
+
+.box {
+  height: 20px;
+  width: 20px;
+  border: 0.1px solid #1E1E1E;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.red {background-color: red;}
+.black {background-color: black;}
+.gray {background-color: gray;}
+.blue {background-color: blue;}
+.royal {background-color: #4169e1;}
+.navy {background-color: navy;}
+.white {background-color: white;}
+.green {background-color: green;}
+.pink {background-color: pink;}
+.purple {background-color: purple;}
+.orange {background-color: orange;}
+.yellow {background-color: yellow;}
+
+#other-items {
+  max-width: 1440px;
+  padding: 0 70px;
+  margin: auto;
+}
+
+/* .image-wrapper {
+  height: 22vw;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+} */
+
+.card-wrapper {
+  display: flex;
+}
+
+.card-title {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.card-title-link {
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+.card {
+  margin: 1em;
+  width: calc(100%/6);
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.fourth-btn {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  border: none;
+  padding: 5px 15px;
+  font-size: 12px;
+}
+
+#foot {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+}
+
+.footer-links {
+  max-width: 1440px;
+  margin: auto;
+  font-size: 14px;
+  text-align: center;
+}
+
+.f-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 12px
+}
+
+#contact-form {
+  max-width: 1440px;
+  padding: 0 70px;
+  margin: auto;
+}
